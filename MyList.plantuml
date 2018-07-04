@@ -1,0 +1,15 @@
+@startuml
+class MyListTest{
++void main (args:String[])
+}
+class MyList{
+-size:int
+-DEFAULT-CAPACITY:int
+-element:E[]
++<<constructor>>MyList()
++add(e:E)
++get(i:int):E
+}
+
+MyListTest*--MyList
+@enduml
