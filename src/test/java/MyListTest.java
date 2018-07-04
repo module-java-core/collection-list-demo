@@ -12,8 +12,8 @@ public class MyListTest {
         System.out.println("element 1: " + listInterger.get(0));
         System.out.println("element 3: " + listInterger.get(2));
 
-       listInterger.get(6);
-        System.out.println("element 6: " + listInterger.get(6));
+       listInterger.add(6);
+        System.out.println("element 6: " + listInterger.get(5));
 
 
 //        listInterger.get(-1);
